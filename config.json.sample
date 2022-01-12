@@ -1,0 +1,61 @@
+{"data": [
+    {
+        "discord": {
+            "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        },
+        "mysql": {
+            "db_host": "localhost",
+            "db_user": "root",
+            "db_pass": "XXXXXXXXXXXXXXXX",
+            "db": "XXXXXXXXXX"
+        },
+        "rpc": {
+            "rpc_host": "127.0.0.1",
+            "rpc_port": "42600",
+            "rpc_user": "XXXXXXXXXXX",
+            "rpc_pass": "XXXXXXXXXXX"
+        },
+        "logging": {
+            "print_level": 3,
+            "file": "log.txt",
+            "file_level": 3
+        },
+        "soak": {
+            "soak_max_recipients": 50,
+            "use_max_recipients": false,
+            "soak_min_received": 0.001,
+            "use_min_received": false,
+            "min_amount": 0.0001
+        },
+        "rain": {
+            "user_activity_required_m": 60,
+            "min_num_messages_requred": 1,
+            "delay_between_messages_required_s": 15,
+            "min_num_words_required": 1,
+            "max_recipients": 50,
+            "use_max_recipients": false,
+            "min_amount": 0.00001
+        },
+        "embed_msg": {
+            "color": "F40000",
+            "thumb_embed_url": "explorer.aevocoin.net/images/logo.png",
+            "footer_msg_text": "Users Agreement: The owner of this bot holds no responsibility for sudden loss or theft of coins stored on this system.  Use at your own risk."
+        },
+        "txfee": 0.10000000,
+        "owners": ["442033580785532928"],
+        "treasurer": "100000000000000010",
+        "withdraw_fee": "0.01",
+        "withdraw_max": "2.5",
+        "min_withdrawal": "0.1",
+        "stake_bal": "100000000000000011",
+        "donation": "100000000000000012",
+        "game_bal": "100000000000000013",
+        "prefix": "$",
+        "description": "Aevo Tipping Bot",
+        "skip_cogs": [""],
+        "register_keyword": "register",
+        "explorer_url": "explorer.aevocoin.net/tx/",
+        "currency_symbol": "AEVO",
+        "currency_name": "Aevo Coin"
+    }
+]}
